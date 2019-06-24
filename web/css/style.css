@@ -316,6 +316,67 @@ ul, li {
 	border: 2px solid #0098aa;
 	transition: all 0.3s ease-in-out;
 }
+/* fases section style goes here */
+#Fases {
+	padding: 80px 0 50px;
+	background-color: #fafafa;
+}
+#Fases .block-heading {
+	margin-bottom: 100px;
+}
+#Fases .block-heading p:last-of-type {
+	margin: 0;
+}
+#Fases .services-wrapper {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#Fases .each-service {
+	position: relative;
+	text-align: center;
+	max-width: calc(33.33% - 30px);
+        border: 1px solid #e6e6e6;
+        background-color: #fff;
+        margin: 0 15px 50px;
+        padding: 55px 20px 25px;
+}
+#Fases .each-service .service-icon {
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 15px;
+	background-color: #0098aa;
+	border-radius: 50%;
+	transition: all 0.2s ease-in-out;
+}
+#Fases .each-service .service-icon i {
+	font-size: 24px;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+#Fases .each-service:hover .service-icon {
+	background-color: #ffffff;
+	border: 1px solid #0098aa;
+	transition: all 0.2s ease-in-out;
+}
+#Fases .each-service:hover .service-icon i {
+	color: #0098aa;
+	transition: all 0.2s ease-in-out;
+}
+#Fases .each-service h5 {
+	margin: 0 0 10px;
+}
+#Fases .each-service p:last-child {
+	margin: 0;
+}
 /* services section style goes here */
 #Services {
 	padding: 80px 0 50px;
