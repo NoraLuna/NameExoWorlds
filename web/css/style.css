@@ -525,12 +525,12 @@ ul, li {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: url("../images/p-five.png") no-repeat center / cover;
+	background: url("../images/p-five.jpg") no-repeat center / cover;
 	width: 50%;
 	height: 100%;
 }
 
-/* about us section style goes here */
+/* IAU us section style goes here */
 #IAU {
 	position: relative;
 }
@@ -566,6 +566,37 @@ ul, li {
 	padding: 50px 0;
 }
 #Testimonial .testimonial-slider {
+	text-align: center;
+}
+.bx-wrapper {
+	box-shadow: none;
+	border: 0;
+	background: transparent;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: transparent;
+	border: 1px solid #fff;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #fff;
+}
+/* Exoplanet section style goes here */
+#Exoplanet {
+	width: 100%;
+	display: table;
+	background: url(../images/banner-two.jpg) no-repeat 0 30% / cover;
+	background-attachment: fixed;
+}
+#Exoplanet .block-heading h2 {
+	margin: 0;
+}
+#Exoplanet .exoplanet-wrap {
+	display: table-cell;
+	background-color: rgba(10,40,60,0.7);
+	color: #fff;
+	padding: 50px 0;
+}
+#Exoplanet .exoplanet-slider {
 	text-align: center;
 }
 .bx-wrapper {
