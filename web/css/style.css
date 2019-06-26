@@ -441,7 +441,7 @@ ul, li {
 /* porfolio style goes here */
 #Portfolio {
 	background-color: #fafafa;
-	padding: 80px 0;
+	padding: 80px 0 50px;
 }
 #Portfolio .block-heading p:last-of-type {
 	margin: 0;
